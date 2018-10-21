@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <App
-        stories={ store.getState() }
+        stories={ store.getState().storyState }
         onArchive={ () => { } }
     />
     , document.getElementById('root'));
