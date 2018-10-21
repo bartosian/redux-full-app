@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a474c29-7e4d-477b-a435-808d3c7aa958" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Story.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Story.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stories.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stories.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Stories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+            <state relative-caret-position="238">
+              <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Story.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Story.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -84,15 +96,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actionTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constants/actionTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" selection-start-column="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Archive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/Archive.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/components/App.css" />
         <option value="$PROJECT_DIR$/src/components/Stories.css" />
         <option value="$PROJECT_DIR$/src/components/Story.css" />
-        <option value="$PROJECT_DIR$/src/components/Story.js" />
         <option value="$PROJECT_DIR$/src/reducers/Story.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/constants/actionTypes.js" />
@@ -137,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/Stories.js" />
+        <option value="$PROJECT_DIR$/src/components/Story.js" />
       </list>
     </option>
   </component>
@@ -256,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540128139369</updated>
-      <workItem from="1540128141965" duration="8691000" />
+      <workItem from="1540128141965" duration="9050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8691000" />
+    <option name="totallyTimeSpent" value="9050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1642" height="947" extended-state="0" />
@@ -319,16 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Story.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -409,8 +402,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Stories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        <state relative-caret-position="238">
+          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Story.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
