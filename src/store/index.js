@@ -1,5 +1,5 @@
 import { createStore } from 'redux';
-import storyReducer from '../reducers/story';
+import storyReducer from '../reducers/Story';
 
 const store = createStore(storyReducer);
 
