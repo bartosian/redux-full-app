@@ -3,4 +3,4 @@ import storyReducer from '../reducers/Story';
 
 const store = createStore(storyReducer);
 
-export  default store;
+export default store;
