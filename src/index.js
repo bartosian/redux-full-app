@@ -5,7 +5,7 @@ import App from './components/App';
 import store from './store/index';
 import { STORY_ARCHIVE } from "./constants/actionTypes";
 import { getReadableStories } from './selectors/story';
-    import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker';
 
 function render() {
     ReactDOM.render(
