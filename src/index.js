@@ -26,6 +26,7 @@ const stories = [
 ReactDOM.render(
     <App
         stories={ stories }
+        onArchive={ () => {} }
     />
     , document.getElementById('root'));
 
